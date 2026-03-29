@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvbms_lib.a CMakeFiles/vbms_lib.dir/src/DriverTypes.cpp.o CMakeFiles/vbms_lib.dir/src/RegisterMap.cpp.o CMakeFiles/vbms_lib.dir/src/VirtualBatteryMonitor.cpp.o CMakeFiles/vbms_lib.dir/src/DeviceController.cpp.o
+/usr/bin/ranlib libvbms_lib.a

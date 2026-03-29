@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/vbms_tests.dir/tests/test_main.cpp.o -o vbms_tests  libvbms_lib.a lib/libgtest_main.a lib/libgtest.a 

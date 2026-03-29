@@ -1,0 +1,165 @@
+Start testing: Mar 29 21:14 CEST
+----------------------------------------------------------
+1/6 Testing: RegisterMapTest.ReadWriteRegister
+1/6 Test: RegisterMapTest.ReadWriteRegister
+Command: "/home/charan/virtual-bms-driver-framework/build/vbms_tests" "--gtest_filter=RegisterMapTest.ReadWriteRegister" "--gtest_also_run_disabled_tests"
+Directory: /home/charan/virtual-bms-driver-framework/build
+"RegisterMapTest.ReadWriteRegister" start time: Mar 29 21:14 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/charan/virtual-bms-driver-framework/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RegisterMapTest.ReadWriteRegister
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RegisterMapTest
+[ RUN      ] RegisterMapTest.ReadWriteRegister
+[       OK ] RegisterMapTest.ReadWriteRegister (0 ms)
+[----------] 1 test from RegisterMapTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RegisterMapTest.ReadWriteRegister" end time: Mar 29 21:14 CEST
+"RegisterMapTest.ReadWriteRegister" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: RegisterMapTest.InvalidAddressFails
+2/6 Test: RegisterMapTest.InvalidAddressFails
+Command: "/home/charan/virtual-bms-driver-framework/build/vbms_tests" "--gtest_filter=RegisterMapTest.InvalidAddressFails" "--gtest_also_run_disabled_tests"
+Directory: /home/charan/virtual-bms-driver-framework/build
+"RegisterMapTest.InvalidAddressFails" start time: Mar 29 21:14 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/charan/virtual-bms-driver-framework/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RegisterMapTest.InvalidAddressFails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RegisterMapTest
+[ RUN      ] RegisterMapTest.InvalidAddressFails
+[       OK ] RegisterMapTest.InvalidAddressFails (0 ms)
+[----------] 1 test from RegisterMapTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RegisterMapTest.InvalidAddressFails" end time: Mar 29 21:14 CEST
+"RegisterMapTest.InvalidAddressFails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: RegisterMapTest.ConcurrentAccessDoesNotCrash
+3/6 Test: RegisterMapTest.ConcurrentAccessDoesNotCrash
+Command: "/home/charan/virtual-bms-driver-framework/build/vbms_tests" "--gtest_filter=RegisterMapTest.ConcurrentAccessDoesNotCrash" "--gtest_also_run_disabled_tests"
+Directory: /home/charan/virtual-bms-driver-framework/build
+"RegisterMapTest.ConcurrentAccessDoesNotCrash" start time: Mar 29 21:14 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/charan/virtual-bms-driver-framework/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RegisterMapTest.ConcurrentAccessDoesNotCrash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RegisterMapTest
+[ RUN      ] RegisterMapTest.ConcurrentAccessDoesNotCrash
+[       OK ] RegisterMapTest.ConcurrentAccessDoesNotCrash (0 ms)
+[----------] 1 test from RegisterMapTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RegisterMapTest.ConcurrentAccessDoesNotCrash" end time: Mar 29 21:14 CEST
+"RegisterMapTest.ConcurrentAccessDoesNotCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled
+4/6 Test: VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled
+Command: "/home/charan/virtual-bms-driver-framework/build/vbms_tests" "--gtest_filter=VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled" "--gtest_also_run_disabled_tests"
+Directory: /home/charan/virtual-bms-driver-framework/build
+"VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled" start time: Mar 29 21:14 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/charan/virtual-bms-driver-framework/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VirtualBatteryMonitorTest
+[ RUN      ] VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled
+[       OK ] VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled (0 ms)
+[----------] 1 test from VirtualBatteryMonitorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled" end time: Mar 29 21:14 CEST
+"VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: VirtualBatteryMonitorTest.FaultRaisedForOvervoltage
+5/6 Test: VirtualBatteryMonitorTest.FaultRaisedForOvervoltage
+Command: "/home/charan/virtual-bms-driver-framework/build/vbms_tests" "--gtest_filter=VirtualBatteryMonitorTest.FaultRaisedForOvervoltage" "--gtest_also_run_disabled_tests"
+Directory: /home/charan/virtual-bms-driver-framework/build
+"VirtualBatteryMonitorTest.FaultRaisedForOvervoltage" start time: Mar 29 21:14 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/charan/virtual-bms-driver-framework/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VirtualBatteryMonitorTest.FaultRaisedForOvervoltage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VirtualBatteryMonitorTest
+[ RUN      ] VirtualBatteryMonitorTest.FaultRaisedForOvervoltage
+[       OK ] VirtualBatteryMonitorTest.FaultRaisedForOvervoltage (0 ms)
+[----------] 1 test from VirtualBatteryMonitorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"VirtualBatteryMonitorTest.FaultRaisedForOvervoltage" end time: Mar 29 21:14 CEST
+"VirtualBatteryMonitorTest.FaultRaisedForOvervoltage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: DeviceControllerTest.ClearsFaults
+6/6 Test: DeviceControllerTest.ClearsFaults
+Command: "/home/charan/virtual-bms-driver-framework/build/vbms_tests" "--gtest_filter=DeviceControllerTest.ClearsFaults" "--gtest_also_run_disabled_tests"
+Directory: /home/charan/virtual-bms-driver-framework/build
+"DeviceControllerTest.ClearsFaults" start time: Mar 29 21:14 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/charan/virtual-bms-driver-framework/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DeviceControllerTest.ClearsFaults
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DeviceControllerTest
+[ RUN      ] DeviceControllerTest.ClearsFaults
+[       OK ] DeviceControllerTest.ClearsFaults (0 ms)
+[----------] 1 test from DeviceControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DeviceControllerTest.ClearsFaults" end time: Mar 29 21:14 CEST
+"DeviceControllerTest.ClearsFaults" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 29 21:14 CEST

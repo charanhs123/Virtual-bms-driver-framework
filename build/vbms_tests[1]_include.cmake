@@ -1,0 +1,5 @@
+if(EXISTS "/home/charan/virtual-bms-driver-framework/build/vbms_tests[1]_tests.cmake")
+  include("/home/charan/virtual-bms-driver-framework/build/vbms_tests[1]_tests.cmake")
+else()
+  add_test(vbms_tests_NOT_BUILT vbms_tests_NOT_BUILT)
+endif()

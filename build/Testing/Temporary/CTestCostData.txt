@@ -1,0 +1,7 @@
+RegisterMapTest.ReadWriteRegister 2 0.00177646
+RegisterMapTest.InvalidAddressFails 2 0.00186783
+RegisterMapTest.ConcurrentAccessDoesNotCrash 2 0.00192183
+VirtualBatteryMonitorTest.MeasurementIgnoredWhenDisabled 2 0.00149223
+VirtualBatteryMonitorTest.FaultRaisedForOvervoltage 2 0.0017554
+DeviceControllerTest.ClearsFaults 1 0.00421932
+---

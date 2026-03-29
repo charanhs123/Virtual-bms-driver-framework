@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/vbms_demo.dir/src/main.cpp.o -o vbms_demo  libvbms_lib.a 
